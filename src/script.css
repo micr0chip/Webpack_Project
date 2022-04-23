@@ -1,0 +1,63 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.select {
+    position: relative;
+	padding: 3px;
+}
+.select select {
+    display: block;
+    width: 26%;
+    padding: .75rem 2.5rem .75rem 1rem;
+    background: none;
+    border: 2px groove #1100a7;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #444;
+}
+.input {
+    position: relative;
+	padding: 5px;
+}
+.input input {
+    display: block;
+    width: 26%;
+    padding: .75rem 2.5rem .75rem 1rem;
+    background: none;
+    border: 2px groove #1100a7;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #444;
+}
+.button {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 14px 80px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1100a7;
+  font-size: 1.5rem;
+  font-family: monospace;
+  border: 1px solid #fff;
+}
+
+.button:hover {
+  color: #006398;
+  border: 1px solid #006398;
+}
+.pic_center {
+  display: block;
+  margin: 0 auto;
+} 
+.calc-result-container {
+	width: 220px;
+	height: 150px;
+    border: 5px solid #1100a7;
+    padding: 25px;
+    margin: 25px;
+	position: relative;
+    text-align: center;
+}
